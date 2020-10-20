@@ -14,6 +14,7 @@
 |Membuat App Baru                             |2        |python manage.py startapp [nama_app]                       |
 |Masuk ke shell                               |2        |python manage.py dbshell                                   |
 |Membuat migration                            |2        |python manage.py makemigrations [nama_app]                 |
+|Melihat migration                            |2        |python manage.py showmigrations [nama_app]                 |
 |Melihat bentuk sql yang akan dimigrate       |2        |python manage.py sqlmigrate [nama_app] [migration_code]    |
 |Menjalankan migration                        |2        |python manage.py migrate                                   |
 |Menambahkan superuser                        |2        |python manage.py createsuperuser                           |
