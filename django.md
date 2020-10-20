@@ -17,5 +17,6 @@
 |Melihat migration                            |2        |python manage.py showmigrations [nama_app]                 |
 |Melihat bentuk sql yang akan dimigrate       |2        |python manage.py sqlmigrate [nama_app] [migration_code]    |
 |Menjalankan migration                        |2        |python manage.py migrate                                   |
+|Membatalkan semua migration pada app         |2        |python manage.py migrate [nama_app] zero                   |
 |Menambahkan superuser                        |2        |python manage.py createsuperuser                           |
 |Menjalankan test                             |2        |python manage.py test [nama_app]                           |
